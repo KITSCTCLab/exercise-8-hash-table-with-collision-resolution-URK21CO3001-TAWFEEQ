@@ -1,4 +1,4 @@
-  import re
+import re
 
 def display_hash(hashtable) -> None:
 	for keyvalue in range(len(hashtable)):
@@ -14,6 +14,7 @@ def Hashing(keyvalue) -> int:
 def insert(Hashtable, keyvalue, value) -> None:
 	# Write your code here
 	Hashtable[Hashing(keyvalue)].append(value)
+
 
 
 # Do not edit the following code
